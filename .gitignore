@@ -1,0 +1,5 @@
+node_modules/
+.env
+load-test.yml
+coverage
+src/database/seed/data/
