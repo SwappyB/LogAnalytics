@@ -11,8 +11,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/SwappyB/LogAnalytics.git
+   cd LogAnalytics
    ```
 
 2. Install dependencies:
