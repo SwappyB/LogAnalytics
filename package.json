@@ -7,13 +7,14 @@
     "start": "ts-node src/server.ts --trace-warnings",
     "seed": "ts-node src/database/seed/index.ts --trace-warnings",
     "dev": "nodemon",
+    "build": "tsc",
+    "deploy": "pm2 start ecosystem.config.js",
     "test": "jest --updateSnapshot --detectOpenHandles --coverage --forceExit --verbose",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage"
   },
   "devDependencies": {
     "@faker-js/faker": "^9.3.0",
-    "@types/bull": "^4.10.4",
     "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",

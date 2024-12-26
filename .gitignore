@@ -3,3 +3,4 @@ node_modules/
 load-test.yml
 coverage
 src/database/seed/data/
+dist/
